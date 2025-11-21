@@ -10,7 +10,7 @@ This repository contains coursework completed for Level-2, Term-1 at Bangladesh 
 
 ---
 
-# **DATA STRUCTURES AND ALGORITHMS II**
+# **CSE 208: DATA STRUCTURES AND ALGORITHMS II**
 
 ---
 
@@ -41,7 +41,7 @@ Six on-site programming assessments covering:
 
 ---
 
-# **DATABASE MANAGEMENT SYSTEMS**
+# **CSE 216: DATABASE MANAGEMENT SYSTEMS**
 
 ---
 
