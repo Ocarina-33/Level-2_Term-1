@@ -1,0 +1,123 @@
+---1)-----------------
+CREATE OR REPLACE FUNCTION IS_READY_FOR_PROMOTION (EID IN NUMBER)
+RETURN VARCHAR2 IS
+result VARCHAR2(100);
+hire number;
+sal number;
+mx number;
+mn number;
+av number;
+flag number;
+sub number;
+
+BEGIN 
+    flag :=0;
+    
+        SELECT  E.HIRE_DATE, E.SALARY, J.MIN_SALARY,J.MAX_SALARY
+        FROM EMPLOYEES E
+        JOIN JOBS J 
+        ON (E.job_id= J.job_id)
+        WHERE E.EMPLOYEE_ID =EID;
+  
+        hire := ( MONTHS_BETWEEN(SYSDATE, E.HIRE_DATE)/12 );
+        sal := J.SALARY;
+        mx := J.MAX_SALARY;
+        mn := J.MIN_SALARY;
+        av := (mx+mn)/2;
+
+        IF (hire >=5 and sal>avg ) THEN
+         result :='IS' || EID || 'READY FOR PROMOTION? YES';
+        ELSE  
+         result :='IS' || EID || 'READY FOR PROMOTION? NO';
+        END IF;
+    RETURN result;
+
+END;
+
+
+
+SET SERVEROUTPUT ON;
+
+   DECLARE 
+   MS VARCHAR2(100); 
+   BEGIN 
+   FOR V IN (SELECT E.EMPLOYEE_ID FROM EMPLOYEES)
+   LOOP 
+   MS := IS_READY_FOR_PROMOTION(V.EMPLOYEE_ID);  
+   DBMS_OUTPUT.PUT_LINE(MS);  
+   END LOOP;
+   END;  
+
+
+
+
+
+
+----2)-----------------------------------------
+
+CREATE TABLE employees_copy AS 
+SELECT * FROM employees; 
+COMMIT;
+
+CREATE OR REPLACE PROCEDURE UPDATE_EMP_SALARY IS 
+empid number;
+oldsal number;
+newsal number;
+td date;
+years number;
+BEGIN 
+    FOR V IN (SELECT e.EMPLOYEE_ID , e.salary,
+              j.min_salary,e.COMMISSION_PCT, e.HIRE_DATE , max(e.HIRE_DATE)as today,
+              avg(salary) as av,
+              max(salary) as mx
+
+              from EMPLOYEES e 
+              join jobs j  
+              on (e.JOB_ID = j.JOB_ID)) 
+              join Departments d  
+              on (e.department_id = d.department_id)
+
+    LOOP  
+        empid := v.employee_id; 
+        oldsal := v.salary ;
+        newsal := oldsal + (v.COMMISSION_PCT * oldsal) + 0.1 * (v.min_salary ) + 0.1 * (v.av);
+        td := today;
+        years := MONTHS_BETWEEN(td, v.hire_date)/12 ;
+
+
+
+
+SELECT e.employee_id, e.salary as Old_Salary, ec.salary as New_Salary, 
+j.min_salary, j.max_salary, e.hire_date 
+FROM employees_copy ec join employees e  
+on ec.employee_id=e.employee_id 
+join jobs j on e.job_id=j.job_id;
+
+
+-----------3)---------------------------------
+
+CREATE TABLE DEMOTIONS (
+    EMPLOYEE_ID NUMBER,
+    CUR_SAL NUMBER,
+    time DATE,
+    status VARCHAR2(100)
+);
+
+create or replace TRIGGER SALARY_UPDATE
+AFTER UPDATE 
+OF SALARY 
+ON EMPLOYEES
+FOR EACH ROW
+DECLARE 
+
+
+
+
+
+
+
+
+
+
+
+

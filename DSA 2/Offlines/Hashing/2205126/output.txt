@@ -1,0 +1,210 @@
+Alpha = 0.4
+Collision Count (Linear probing) hash1 : 981
+Collision Count (Linear probing) hash2 : 1098
+Collision Count (Double Hashing) hash1 : 870
+Collision Count (Double Hashing) hash2 : 866
+Collision Count (Chaining) hash1 : 629
+Collision Count (Chaining) hash2 : 662
+
+Average probe Count before delete (Linear probing) hash1 : 1.18125
+Average probe Count before delete (Linear probing) hash2 : 1.32187
+Average probe Count before delete (Double Hashing) hash1 : 1.19687
+Average probe Count before delete (Double Hashing) hash2 : 1.28125
+
+Searched320elements
+Avg Search time before delete hash1: 131.25 nano 
+Avg Search time before delete hash2: 65.625 nano 
+Avg Search time before delete hash3: 93.75 nano 
+Avg Search time before delete hash4: 87.5 nano 
+Avg Search time before delete hash5: 84.375 nano 
+Avg Search time before delete hash6: 68.75 nano 
+
+Average probe Count after delete (Linear probing) hash1 : 2.3875
+Average probe Count after delete (Linear Probing) hash2 : 1.32187
+Average probe Count after delete (Double Hashing) hash1 : 2.225
+Average probe Count after delete (Double Hashing) hash2 : 1.30625
+
+Avg Search time ater delete hash1: 137.5 nano 
+Avg Search time ater delete hash2: 90.625 nano 
+Avg Search time ater delete hash3: 146.875 nano 
+Avg Search time ater delete hash4: 115.625 nano 
+Avg Search time ater delete hash5: 121.875 nano 
+Avg Search time ater delete hash6: 90.625 nano 
+
+
+
+Alpha = 0.5
+Collision Count (Linear probing) hash1 : 2109
+Collision Count (Linear probing) hash2 : 1963
+Collision Count (Double Hashing) hash1 : 1507
+Collision Count (Double Hashing) hash2 : 1615
+Collision Count (Chaining) hash1 : 978
+Collision Count (Chaining) hash2 : 1003
+
+Average probe Count before delete (Linear probing) hash1 : 1.55
+Average probe Count before delete (Linear probing) hash2 : 1.54
+Average probe Count before delete (Double Hashing) hash1 : 1.3925
+Average probe Count before delete (Double Hashing) hash2 : 1.4075
+
+Searched400elements
+Avg Search time before delete hash1: 100 nano 
+Avg Search time before delete hash2: 70 nano 
+Avg Search time before delete hash3: 107.5 nano 
+Avg Search time before delete hash4: 90 nano 
+Avg Search time before delete hash5: 95 nano 
+Avg Search time before delete hash6: 67.5 nano 
+
+Average probe Count after delete (Linear probing) hash1 : 3.585
+Average probe Count after delete (Linear Probing) hash2 : 1.4575
+Average probe Count after delete (Double Hashing) hash1 : 2.47
+Average probe Count after delete (Double Hashing) hash2 : 1.4425
+
+Avg Search time ater delete hash1: 270 nano 
+Avg Search time ater delete hash2: 162.5 nano 
+Avg Search time ater delete hash3: 272.5 nano 
+Avg Search time ater delete hash4: 207.5 nano 
+Avg Search time ater delete hash5: 220 nano 
+Avg Search time ater delete hash6: 160 nano 
+
+
+
+Alpha = 0.6
+Collision Count (Linear probing) hash1 : 3532
+Collision Count (Linear probing) hash2 : 3580
+Collision Count (Double Hashing) hash1 : 2550
+Collision Count (Double Hashing) hash2 : 2471
+Collision Count (Chaining) hash1 : 1440
+Collision Count (Chaining) hash2 : 1418
+
+Average probe Count before delete (Linear probing) hash1 : 1.65417
+Average probe Count before delete (Linear probing) hash2 : 1.58333
+Average probe Count before delete (Double Hashing) hash1 : 1.45833
+Average probe Count before delete (Double Hashing) hash2 : 1.40417
+
+Searched480elements
+Avg Search time before delete hash1: 95.8333 nano 
+Avg Search time before delete hash2: 64.5833 nano 
+Avg Search time before delete hash3: 95.8333 nano 
+Avg Search time before delete hash4: 83.3333 nano 
+Avg Search time before delete hash5: 87.5 nano 
+Avg Search time before delete hash6: 62.5 nano 
+
+Average probe Count after delete (Linear probing) hash1 : 4.2125
+Average probe Count after delete (Linear Probing) hash2 : 1.77292
+Average probe Count after delete (Double Hashing) hash1 : 2.84792
+Average probe Count after delete (Double Hashing) hash2 : 1.70833
+
+Avg Search time ater delete hash1: 372.917 nano 
+Avg Search time ater delete hash2: 220.833 nano 
+Avg Search time ater delete hash3: 366.667 nano 
+Avg Search time ater delete hash4: 285.417 nano 
+Avg Search time ater delete hash5: 300 nano 
+Avg Search time ater delete hash6: 216.667 nano 
+
+
+
+Alpha = 0.7
+Collision Count (Linear probing) hash1 : 7263
+Collision Count (Linear probing) hash2 : 6583
+Collision Count (Double Hashing) hash1 : 4048
+Collision Count (Double Hashing) hash2 : 4038
+Collision Count (Chaining) hash1 : 1982
+Collision Count (Chaining) hash2 : 2000
+
+Average probe Count before delete (Linear probing) hash1 : 2.31786
+Average probe Count before delete (Linear probing) hash2 : 2.03214
+Average probe Count before delete (Double Hashing) hash1 : 1.76607
+Average probe Count before delete (Double Hashing) hash2 : 1.64107
+
+Searched560elements
+Avg Search time before delete hash1: 96.4286 nano 
+Avg Search time before delete hash2: 66.0714 nano 
+Avg Search time before delete hash3: 96.4286 nano 
+Avg Search time before delete hash4: 82.1429 nano 
+Avg Search time before delete hash5: 78.5714 nano 
+Avg Search time before delete hash6: 55.3571 nano 
+
+Average probe Count after delete (Linear probing) hash1 : 7.05
+Average probe Count after delete (Linear Probing) hash2 : 1.9875
+Average probe Count after delete (Double Hashing) hash1 : 3.55179
+Average probe Count after delete (Double Hashing) hash2 : 1.83393
+
+Avg Search time ater delete hash1: 460.714 nano 
+Avg Search time ater delete hash2: 271.429 nano 
+Avg Search time ater delete hash3: 444.643 nano 
+Avg Search time ater delete hash4: 348.214 nano 
+Avg Search time ater delete hash5: 362.5 nano 
+Avg Search time ater delete hash6: 258.929 nano 
+
+
+
+Alpha = 0.8
+Collision Count (Linear probing) hash1 : 13744
+Collision Count (Linear probing) hash2 : 11747
+Collision Count (Double Hashing) hash1 : 6304
+Collision Count (Double Hashing) hash2 : 6721
+Collision Count (Chaining) hash1 : 2508
+Collision Count (Chaining) hash2 : 2490
+
+Average probe Count before delete (Linear probing) hash1 : 3.31875
+Average probe Count before delete (Linear probing) hash2 : 2.66719
+Average probe Count before delete (Double Hashing) hash1 : 1.99219
+Average probe Count before delete (Double Hashing) hash2 : 1.88437
+
+Searched640elements
+Avg Search time before delete hash1: 96.875 nano 
+Avg Search time before delete hash2: 65.625 nano 
+Avg Search time before delete hash3: 95.3125 nano 
+Avg Search time before delete hash4: 79.6875 nano 
+Avg Search time before delete hash5: 79.6875 nano 
+Avg Search time before delete hash6: 53.125 nano 
+
+Average probe Count after delete (Linear probing) hash1 : 12.2203
+Average probe Count after delete (Linear Probing) hash2 : 2.85469
+Average probe Count after delete (Double Hashing) hash1 : 4.48125
+Average probe Count after delete (Double Hashing) hash2 : 2.40781
+
+Avg Search time ater delete hash1: 557.812 nano 
+Avg Search time ater delete hash2: 325 nano 
+Avg Search time ater delete hash3: 517.188 nano 
+Avg Search time ater delete hash4: 409.375 nano 
+Avg Search time ater delete hash5: 415.625 nano 
+Avg Search time ater delete hash6: 298.438 nano 
+
+
+
+Alpha = 0.9
+Collision Count (Linear probing) hash1 : 33968
+Collision Count (Linear probing) hash2 : 35577
+Collision Count (Double Hashing) hash1 : 11188
+Collision Count (Double Hashing) hash2 : 11594
+Collision Count (Chaining) hash1 : 3214
+Collision Count (Chaining) hash2 : 3335
+
+Average probe Count before delete (Linear probing) hash1 : 5.4375
+Average probe Count before delete (Linear probing) hash2 : 7.74444
+Average probe Count before delete (Double Hashing) hash1 : 2.45694
+Average probe Count before delete (Double Hashing) hash2 : 2.59306
+
+Searched720elements
+Avg Search time before delete hash1: 104.167 nano 
+Avg Search time before delete hash2: 83.3333 nano 
+Avg Search time before delete hash3: 90.2778 nano 
+Avg Search time before delete hash4: 83.3333 nano 
+Avg Search time before delete hash5: 70.8333 nano 
+Avg Search time before delete hash6: 50 nano 
+
+Average probe Count after delete (Linear probing) hash1 : 34.6514
+Average probe Count after delete (Linear Probing) hash2 : 27.06806
+Average probe Count after delete (Double Hashing) hash1 : 7.8125
+Average probe Count after delete (Double Hashing) hash2 : 3.61389
+
+Avg Search time ater delete hash1: 716.667 nano 
+Avg Search time ater delete hash2: 386.111 nano 
+Avg Search time ater delete hash3: 590.278 nano 
+Avg Search time ater delete hash4: 463.889 nano 
+Avg Search time ater delete hash5: 465.278 nano 
+Avg Search time ater delete hash6: 330.556 nano 
+
+
+

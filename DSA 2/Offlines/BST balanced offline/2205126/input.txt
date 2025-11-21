@@ -1,0 +1,29 @@
+Clr  
+Em 
+AI 10 "Phone" 5     
+AI 5 "Mouse" 5          
+AI 1 "Charger" 3     
+AI 15 "Monitor" 7       
+AI 20 "Laptop" 8          
+AI 13 "Keyboard" 4   
+AI 25 "Router" 6 
+AI 30 "Tablet" 3 
+AI 28 "Speaker" 2   
+AI 27 "Camera" 1           
+AI 15 "MonitorPro" 20   
+CI 20      
+CI 99                   
+BI 1 1      
+BI 5 3    
+BI 25 6  
+BI 20 8      
+BI 27 1      
+BI 30 3 
+BI 28 2      
+BI 10 5 
+Em 
+S   
+Itr              
+Clr                    
+S                     
+Itr
